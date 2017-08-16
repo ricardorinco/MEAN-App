@@ -5,7 +5,7 @@ const router = express.Router();
 const urlAPI = "https://jsonplaceholder.typicode.com";
 
 router.get("/", (req, res) => {
-  res.send("Api rodando");
+  res.send("Api rodando =D");
 });
 
 router.get("/posts", (req, res) => {
